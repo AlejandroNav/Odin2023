@@ -2,32 +2,46 @@ html {
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+    font-size: 1.6rem;
+}
+
+/*------- Estilos del NAV --------*/
 nav {
     background-color: rgb(9, 28, 53);
     color: white;
     display: flex;
 
 }
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: rgb(204, 204, 204);
+}
+
 nav ul {
     display: flex;
     align-items: center;
     list-style-type: none;
-    border: 2px red solid;
     width: 50%;
     padding: 0 6%;
     margin: 1.5rem 0;
 }
+
 nav h3 {
-    border: 2px rgb(255, 153, 0) solid;
     width: 50%;
     font-size: 2rem;
     padding: 0 10%;
     margin: 1.5rem 0;
 }
+
 nav ul li {
     margin: 0rem 1rem;
     font-size: 1.6rem;
 }
-p {
-    font-size: 1.6rem;
-}
+
+/*------- Estilos del NAV --------*/
