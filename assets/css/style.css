@@ -78,3 +78,30 @@ main > section {
     font-weight: 600;
     letter-spacing: .3rem;
 }
+/*------- Estilos de los Section 2 --------*/
+#portfolio-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#portfolio-section h2{
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    margin-top: 6rem;
+}
+#portfolio-section p{
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: .3rem;
+}
+#image-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; /* Adjust the gap as needed */
+    width: 80%;
+    padding-bottom: 9rem;
+}
+#image-container img {
+
+}
