@@ -98,10 +98,10 @@ main > section {
 #image-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px; /* Adjust the gap as needed */
+    grid-gap: 3rem; /* Adjust the gap as needed */
     width: 80%;
     padding-bottom: 9rem;
 }
 #image-container img {
-
+    border: solid rgb(0, 0, 0) 3px;
 }
